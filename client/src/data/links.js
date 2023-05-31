@@ -12,7 +12,7 @@ export const links = [
         path: '/menu'
     },
     {
-        name: 'Find us',
-        path: '/findUs'
+        name: 'Contact',
+        path: '/contact'
     }
 ]

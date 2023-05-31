@@ -3,7 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Menu from './pages/menu/Menu';
-import FindUs from './pages/findUs/FindUs';
+import Contact from './pages/contact/Contact';
 import NotFound from './pages/notFound/NotFound';
 import './App.scss';
 
@@ -15,7 +15,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='menu' element={<Menu/>}/>
-        <Route path='findUs' element={<FindUs/>}/>
+        <Route path='contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
