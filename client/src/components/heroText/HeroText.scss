@@ -1,0 +1,31 @@
+@use '../../partials/colors' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/breakpoints' as *;
+
+.heroText {
+    &__container {
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: $tan;
+        color: $chocolate_cosmos;
+    }
+    &__heading {
+        padding: 70px 0;
+        font-family: 'AmaticSC Regular';
+    }
+    &__motto {
+        padding-bottom: 20px;
+    }
+    &__aboutBtn {
+        padding: 20px;
+        border-radius: 40px;
+        background-color: $chocolate_cosmos;
+        color: $tan;
+    }
+}

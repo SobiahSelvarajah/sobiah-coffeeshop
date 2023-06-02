@@ -1,8 +1,11 @@
+import Hero from '../../components/hero/Hero';
 import './Home.scss';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="home__container">
+      <Hero />
+    </div>
   )
 }
 
