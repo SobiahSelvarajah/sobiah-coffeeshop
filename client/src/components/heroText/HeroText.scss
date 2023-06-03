@@ -6,18 +6,19 @@
 .heroText {
     &__container {
         width: 100%;
-        padding: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        background-color: $tan;
-        color: $chocolate_cosmos;
+        color: $tan;
+        @include tablet {
+            align-items: flex-start;
+            padding-left: 100px;
+        }
     }
     &__heading {
-        padding: 70px 0;
-        font-family: 'AmaticSC Regular';
+        padding-bottom: 60px;
+        font-family: 'AmaticSC Bold';
     }
     &__motto {
         padding-bottom: 20px;
