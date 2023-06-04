@@ -5,6 +5,7 @@ import About from './pages/about/About';
 import Menu from './pages/menu/Menu';
 import Contact from './pages/contact/Contact';
 import NotFound from './pages/notFound/NotFound';
+import Footer from './components/footer/Footer';
 import './App.scss';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

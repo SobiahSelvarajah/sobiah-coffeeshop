@@ -1,0 +1,11 @@
+@use '../../partials/colors' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/breakpoints' as *;
+
+.footer {
+    &__container {
+        background-color: $chocolate_cosmos;
+        color: $tan;
+    }
+}
