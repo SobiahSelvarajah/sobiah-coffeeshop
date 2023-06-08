@@ -5,6 +5,7 @@
 
 .footerLogo {
     &__image {
+        padding-bottom: 15px;
         width: 50%;
         @include tablet {
             width: 5rem;

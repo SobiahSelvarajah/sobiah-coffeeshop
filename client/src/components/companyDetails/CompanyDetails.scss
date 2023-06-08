@@ -4,8 +4,15 @@
 @use '../../partials/breakpoints' as *;
 
 .companyNumber__container,
-.companyLocation__container {
+.companyLocation__container,
+.companyEmail__container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 5px 0;
+}
+.companyNumber__number,
+.companyLocation__location,
+.companyEmail__email {
+    padding-left: 7px;
 }
