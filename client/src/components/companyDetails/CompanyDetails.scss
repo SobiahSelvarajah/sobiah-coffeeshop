@@ -3,7 +3,8 @@
 @use '../../partials/textstyles' as *;
 @use '../../partials/breakpoints' as *;
 
-.companyNumber__container {
+.companyNumber__container,
+.companyLocation__container {
     display: flex;
     flex-direction: row;
     align-items: center;
