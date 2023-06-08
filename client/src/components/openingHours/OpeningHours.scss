@@ -4,16 +4,9 @@
 @use '../../partials/breakpoints' as *;
 
 .openingHours {
-    &__container {
-        width: 100%;
-    }
-    &__heading {
-        padding: 40px 0 0 30px;
-        font-family: 'AmaticSC Regular';
-    }
-    &__list {
-        padding: 20px 80px 40px 80px;
-    }
+//     &__container {
+//         width: 100%;
+//     }
     &__listItem {
         display: flex;
         flex-direction: row;

@@ -3,8 +3,13 @@
 @use '../../partials/textstyles' as *;
 @use '../../partials/breakpoints' as *;
 
+.openingHours__heading {
+    font-family: 'AmaticSC Regular';
+}
+
 .footer {
     &__container {
+        padding: 50px;
         background-color: $chocolate_cosmos;
         color: $tan;
     }

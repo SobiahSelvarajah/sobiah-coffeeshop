@@ -1,0 +1,13 @@
+@use '../../partials/colors' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/breakpoints' as *;
+
+.footerLogo {
+    &__image {
+        width: 50%;
+        @include tablet {
+            width: 5rem;
+        }
+    }
+}
