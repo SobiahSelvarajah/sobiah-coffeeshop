@@ -3,7 +3,8 @@
 @use '../../partials/textstyles' as *;
 @use '../../partials/breakpoints' as *;
 
-.socialsFacebook__logo {
+.socialsFacebook__logo,
+.socialsInstagram__logo {
     color: $tan;
 }
 .socials {

@@ -1,4 +1,5 @@
 import SocialsFacebook from '../socialsFacebook/SocialsFacebook'
+import SocialsInstagram from '../socialsInstagram/SocialsInstagram'
 import './Socials.scss'
 
 const Socials = () => {
@@ -9,6 +10,7 @@ const Socials = () => {
         </h2>
         <div className="socials__icons">
             <SocialsFacebook />
+            <SocialsInstagram />
         </div>
     </div>
   )
