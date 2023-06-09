@@ -3,7 +3,8 @@
 @use '../../partials/textstyles' as *;
 @use '../../partials/breakpoints' as *;
 
-.openingHours__heading {
+.openingHours__heading,
+.socials__heading {
     font-family: 'AmaticSC Regular';
 }
 
