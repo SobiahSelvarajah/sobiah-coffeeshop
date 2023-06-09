@@ -13,5 +13,10 @@
         padding: 50px;
         background-color: $chocolate_cosmos;
         color: $tan;
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 }
