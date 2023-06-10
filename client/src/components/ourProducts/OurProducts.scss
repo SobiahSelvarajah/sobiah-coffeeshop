@@ -1,0 +1,13 @@
+@use '../../partials/colors' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/breakpoints' as *;
+
+.ourProducts {
+    &__container {
+        background-color: $tan;
+    }
+    &__heading {
+        color: $chocolate_cosmos;
+    }
+}

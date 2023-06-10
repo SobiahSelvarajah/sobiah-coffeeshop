@@ -5,7 +5,11 @@ import './Navlogo.scss';
 const Navlogo = () => {
   return (
     <Link to='/' className='navlogo__link'>
-        <img src={Logo} alt="logo" className="navlogo__logo"/>
+        <img 
+          src={Logo} 
+          alt="logo" 
+          className="navlogo__logo"
+        />
     </Link>
   )
 }

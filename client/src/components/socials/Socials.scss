@@ -10,6 +10,9 @@
     color: $tan;
 }
 .socials {
+    &__heading {
+        font-family: 'AmaticSC Regular';
+    }
     &__icons {
         display: flex;
         flex-direction: row;

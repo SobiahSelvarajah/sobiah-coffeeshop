@@ -13,5 +13,8 @@
         height: 30rem;
         display: flex;
         align-items: center;
+        @include desktop {
+            height: 38rem;
+        }
     }
 }

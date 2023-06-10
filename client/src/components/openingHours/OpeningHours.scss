@@ -4,9 +4,9 @@
 @use '../../partials/breakpoints' as *;
 
 .openingHours {
-//     &__container {
-//         width: 100%;
-//     }
+    &__heading {
+        font-family: 'AmaticSC Regular';
+    }
     &__listItem {
         display: flex;
         flex-direction: row;

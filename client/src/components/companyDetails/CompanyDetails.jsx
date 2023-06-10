@@ -1,7 +1,7 @@
 import FooterLogo from '../footerLogo/FooterLogo'
 import CompanyName from '../companyName/CompanyName'
 import CompanyNumber from '../companyNumber/CompanyNumber'
-import CompanyLocation from '../compamyLocation/CompanyLocation'
+import CompanyLocation from '../companyLocation/CompanyLocation'
 import CompanyEmail from '../companyEmail/CompanyEmail'
 import './CompanyDetails.scss'
 
